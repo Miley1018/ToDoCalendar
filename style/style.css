@@ -1,0 +1,28 @@
+.whole {
+    display: flex;
+    width: 100%;
+}
+
+.page {
+    height: 400px;
+    width: 20%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.pageTop {
+    height: 15%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.pageBody {
+    height: 70%;
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+.pageBottom {
+    height: 15%;
+}
